@@ -57,7 +57,7 @@ The problem: `<number>` is not sanitized. Whatever the user types becomes part o
 See [`injection-attack.sql`](injection-attack.sql) for the full annotated code.
 
 **Input entered in the account number field:**
-```
+```sql
 256101; UPDATE Accounts SET Balance = Balance - 500 WHERE Account_Num = 256304; UPDATE Accounts SET Balance = Balance + 500 WHERE Account_Num = 256101;
 ```
 
