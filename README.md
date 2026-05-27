@@ -8,7 +8,7 @@ Two applied security labs from my Cybersecurity Fundamentals course — one offe
 
 The SQL injection lab demonstrates how a multi-statement injection attack works against a vulnerable database — specifically, how an attacker could manipulate financial records by exploiting missing input validation. The RSA lab involves generating a real 2048-bit keypair, encrypting a message with the public key, and decrypting it with the private key.
 
-These connect directly to two areas I'm building depth in: offensive security techniques (relevant to my OSCP prep) and applied cryptography.
+These connect directly to two core SOC skill areas: understanding offensive attack mechanics to better detect and triage them, and applied cryptography for evaluating encryption implementations and data protection controls.
 
 ---
 
