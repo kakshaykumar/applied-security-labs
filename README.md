@@ -52,7 +52,7 @@ openssl pkeyutl -decrypt -inkey private.pem -in data.txt.enc
 The lab covers how asymmetric encryption works, the relationship between key pairs, and why you can share the public key freely while keeping the private key protected.
 
 → [Full cryptography write-up](02-rsa-cryptography/README.md)
-→ → [public.pem](02-rsa-cryptography/keys/public.pem) | [private.pem](02-rsa-cryptography/keys/private.pem) | [data.txt.enc](02-rsa-cryptography/assets/data.txt.enc)
+→ [public.pem](02-rsa-cryptography/keys/public.pem) | [private.pem](02-rsa-cryptography/keys/private.pem) | [data.txt.enc](02-rsa-cryptography/assets/data.txt.enc)
 
 ---
 
