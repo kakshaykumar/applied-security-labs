@@ -92,7 +92,9 @@ Decrypts `data.txt.enc` using `private.pem` and writes the result back to `data.
 data.txt    data.txt.enc    private.pem    public.pem
 ```
 
-The decrypted `data.txt` contains: **`Hello Professor`** [attached the generated public key and the encrypted message data.txt.enc file. Decrypted and verified the data.txt.enc file with the private key private.pem, it returns the message “Hello Professor”.]
+The decrypted `data.txt` contains: **`Hello Professor`**
+
+> **Note:** The generated public key and the encrypted `data.txt.enc` file are included in this repo. Decrypting `data.txt.enc` with `private.pem` returns the message "Hello Professor".
 
 ---
 
